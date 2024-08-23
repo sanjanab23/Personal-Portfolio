@@ -22,7 +22,7 @@ This is a personal portfolio website showcasing my projects, skills, and backgro
 
 ## Structure
 
--**index.html**: The main HTML file containing the structure of the website.
--**style.css**: The stylesheet defining the design and layout.
--**img/**: Directory for images used on the website (e.g., profile picture).
--**js/**: Directory for any JavaScript files (if applicable).
+- **index.html**: The main HTML file containing the structure of the website.
+- **style.css**: The stylesheet defining the design and layout.
+- **img/**: Directory for images used on the website (e.g., profile picture).
+- **js/**: Directory for any JavaScript files (if applicable).
