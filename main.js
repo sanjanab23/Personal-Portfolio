@@ -50,6 +50,22 @@ let mixerPortfolio = mixitup('.work_container', {
 
 
 /*===== Work Popup =====*/
+document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("work_button")) {
+      togglePortfolioPopup();
+      portfolioItemDetails(e.target.parentElement);
+    }
+  });
+  
+  function togglePortfolioPopup() {
+    document.querySelector(".portfolio_popup").classList.toggle("open");
+    document.querySelector(".portfolio_popup-close").addEventListener("click", togglePortfolioPopup);
+  }
+  
+  function portfolioItemDetails(portfolioItem) {
+    document.querySelector(".pp_thumbnail img").src = portfolioItem.querySelector(".work_img").src;
+  }
+  
 
 
 /*=============== SERVICES MODAL ===============*/
