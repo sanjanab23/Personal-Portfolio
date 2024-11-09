@@ -677,6 +677,11 @@ input {
     color: var(--title-color);
 }
 
+
+
+
+
+
 /* Portfolio Popup */
 .portfolio_popup{
     position: fixed;
@@ -782,6 +787,50 @@ input {
 
 
 /*=============== FOOTER ===============*/
+.footer {
+    padding-top: 2rem;
+}
+
+.footer__container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.6rem;
+}
+
+.footer__bg {
+    background-color: var(--box-color);
+    padding: 3rem 0 3.5rem;
+}
+
+.footer__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle {
+    font-size: var(--small-font-size);
+}
+
+
+.footer_social {
+    font-size: 1.25rem;
+    margin-right:var(--mb-1)
+
+}
+.footer_social:hover{
+    color:var(--skin-color)
+}
+
+.footer_copy{
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.footer_title,
+.footer_subtitle,
+.footer_social{
+    color:var(--title-color)
+}
 
 
 /*=============== SCROLL UP ===============*/
